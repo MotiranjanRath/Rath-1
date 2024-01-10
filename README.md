@@ -1,4 +1,4 @@
  # Rath-1
 this is my first git repository
 <br>
-Author-Mr.MotiranjanRath
+Author-Mr.motiranjanrath
