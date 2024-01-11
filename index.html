@@ -1,2 +1,83 @@
-<p>heello world
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini portfolio</title>
+    <style>
+        *{
+            /*REMOVE THE  MARGIN AND PADDDING 0 AT THE TIME OF UL/OL THE*/
+            box-sizing: border-box;
+            background-color: rgba(0, 255, 225, 0.634);
+        }
+        .color-border{
+                width: 200px;
+                height: 200px;
+                background: linear-gradient(orange,red,green,purple,yellow);
+                border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
+                padding: 8px;
+               margin-left: 160px;
+               margin-top: 80px;
+              
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius:  50% 10% 50% 10% / 10% 50% 10% 50%;;
+        }
+        h1{
+            font-size: 65px;
+            margin: 5% 0 0 8%;
+            background-image: url("git.jpg");
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        input{
+            border-color: blueviolet;
+        }
+        button{
+           background-color: beige;
+           border:solid;
+           border-color:green ;
+        }
+       li[value="1"]::marker{
+        content:"😎";
+       }
+       li[value="2"]::marker{
+        content:"🎓";
+       }
+       li[value="3"]::marker{
+        content:"👨‍🎓";
+       }
+       li::selection{
+        background-color: rgb(51, 156, 27);
+        color: blueviolet;
+       }
+        ul{
+             margin-left: 165px;
+            list-style-position:inside;/*to move the dots of the ul*/
+        }
+        .question{
+        text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="color-border">
+        <img src="git.jpg" alt="hi">
+      </div>
+      <h1>MOTIRANJAN</h1>
+      <ul>
+        <li value="1">GIETIAN</li>
+         <li value="2">CSE(AI-ML)</li>
+         <li value="3">22CSEAIML040</li>
+      </ul>
+      <div class="question"> 
+       1.
+      <input type="text" placeholder="enter your question">
+      <button type="submit">submit</button>
+      </div>
+</body>
+</html>
